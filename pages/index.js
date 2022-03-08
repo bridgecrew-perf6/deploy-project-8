@@ -3,7 +3,7 @@ import { Box, Container, Button, Text, Center, Heading, Input } from '@chakra-ui
 import Link from 'next/link'
 
 export default function Home() {
-  const [url, setUrl] = useState("https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world")
+  const [url, setUrl] = useState("https://vercel.com/new/clone?repository-url=https://github.com/ianapd/deploy-button")
 
   useEffect(() => {
     console.log(url)
