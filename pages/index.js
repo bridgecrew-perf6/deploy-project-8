@@ -20,7 +20,7 @@ export default function Home() {
         />
         <Center>
           <Link href={url}>
-            <Button bgColor="dodgerblue" color="white">Deploy</Button>
+            <Button bgColor="#1573EF" color="white">Deploy</Button>
           </Link>
         </Center>
       </Container>
